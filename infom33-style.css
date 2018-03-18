@@ -1,23 +1,51 @@
-p
+/*  ATTRIBUT DU TITRE   */
+.titre
 {
-color: green;
+    font-size: xx-large;
+    font-weight: bold;
+    color: blue;
 }
+/*  ATTRIBUT DU TEXTE COLONNE SOMMAIRE   */
 .sommaire
 {
     color: blue;
 }
+
+/*  ATTRIBUTS DE LA TABLE LIENS    */
+table#liens
+{
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 0px;
+    width: 100%;
+}
+/*  ATTRIBUTS DE LA TABLE INFO    */
+table#info
+{
+    background-color: white;
+    font-style: italic;
+    font-size: large;
+    border: 2px solid black;
+    padding: 0px;
+    width: 100%;
+}
+
+/*  ATTRIBUTS DE LA TABLE INFOM33    */
+table#infom33
+{
+    background-color: white;
+    border: solid
+    padding: 0px;
+    width: 100%;
+}
+
 a
 {
     color: red;
 }
 
-h1 {
-    position: absolute;
-    top: 40%;
-    width: 100%;
-    font-family: Helvetica;
-    font-size: large;
-    text-align: center;
-    color: blue;
     
-}
+
+
+
+
