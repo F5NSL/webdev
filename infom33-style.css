@@ -38,7 +38,14 @@ table#infom33
     padding: 0px;
     width: 100%;
 }
-
+/*  ATTRIBUTS DE LA TABLE INFOM33-TECH    */
+table#infom33-tech
+{
+    background-color: white;
+    border: solid
+    padding: 0px;
+    width: 100%;
+}
 a
 {
     color: red;
