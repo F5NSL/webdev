@@ -11,6 +11,11 @@
     color: blue;
 }
 
+.separation
+{
+    color: red;
+}
+
 /*  ATTRIBUTS DE LA TABLE LIENS    */
 table#liens
 {
