@@ -44,14 +44,36 @@ table#infom33
     width: 100%;
 }
 /*  ATTRIBUTS DE LA TABLE INFOM33-TECH    */
-table#infom33-tech
+table#liste-articles
 {
     background-color: white;
-    border: solid
+    border: 1px solid black;
     padding: 0px;
     width: 100%;
+    border-collapse: collapse;
+       
 }
+tr
+{
+    border: 1px solid black;
+}
+/*  ATTRIBUTS DE LA TABLE INFOM33-TECH    */
+table#liste-articles-ag
+{
+    background-color: white;
+    border: 1px solid black;
+    padding: 0px;
+    width: 100%;
+    border-collapse: collapse; 
+} 
+
+.numero-ag
+{
+    width:20%;
+}
+
 a
+
 {
     color: red;
 }
