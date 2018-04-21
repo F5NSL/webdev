@@ -1,3 +1,8 @@
+/*  SELECTION UNIVERSELLE */
+*
+{
+    font-family: Arial, "Arial Black","Comic Sans MS", "Courier New", Georgia, "Times New Roman";
+}
 /*  ATTRIBUT DU TITRE   */
 .titre
 {
@@ -6,14 +11,9 @@
     color: blue;
 }
 /*  ATTRIBUT DU TEXTE COLONNE SOMMAIRE   */
-.sommaire
+.sommaireeffacer
 {
     color: blue;
-}
-
-.separation
-{
-    color: red;
 }
 
 /*  ATTRIBUTS DE LA TABLE LIENS    */
@@ -23,6 +23,8 @@ table#liens
     border: 2px solid black;
     padding: 0px;
     width: 100%;
+    border-collapse: collapse;
+    
 }
 /*  ATTRIBUTS DE LA TABLE INFO    */
 table#info
@@ -33,10 +35,17 @@ table#info
     border: 2px solid black;
     padding: 0px;
     width: 100%;
+    text-align: center;
+    border-radius: 10px;
+}
+/*  MOTS EN GRAS DANS LE TEXTE    */
+mark
+{
+    font-weight: bold;
 }
 
 /*  ATTRIBUTS DE LA TABLE INFOM33    */
-table#infom33
+table#infom33effacer
 {
     background-color: white;
     border: solid
@@ -51,35 +60,50 @@ table#liste-articles
     padding: 0px;
     width: 100%;
     border-collapse: collapse;
-       
 }
-tr
+/*  LIGNES DE SEPARATION A L'INTERIEUR DES TABLEAUX   */     
+.separation
 {
-    border: 1px solid black;
+    font-weight: bold;
+    color: blue;
+    background-color: #C7ECEE;
 }
-/*  ATTRIBUTS DE LA TABLE INFOM33-TECH    */
-table#liste-articles-ag
-{
-    background-color: white;
-    border: 1px solid black;
-    padding: 0px;
-    width: 100%;
-    border-collapse: collapse; 
-} 
+  
+  
+/*  LIGNES DANS LES TABLES    */     
 
+tr,td
+{
+    border: 1px solid black;
+}
+
+/*  LIGNE DE TITRE DES ARTICLES    */     
+th
+{
+    border: 1px solid black;
+    background-color: aqua;
+    ;
+}
+
+/*  LARGEUR COLONNE PAGE AG   */    
 .numero-ag
 {
     width:20%;
 }
 
+/*  COULEUR DES LIENS A CLIQUER   */    
 a
-
 {
     color: red;
 }
-
-    
-
-
-
-
+/*  SURVOL DES LIENS   */
+a:hover
+{
+    font-style: oblique;
+    font-weight: bold;
+}
+/*  LIEN DEJA CONSULTE   */
+a:visited
+{
+    color:#E84393;
+}
