@@ -104,11 +104,9 @@
     font-weight: bold;
     color: blue;
 }
-/*  ATTRIBUT DU TEXTE COLONNE SOMMAIRE   */
-.sommaireeffacer
-{
-    color: blue;
-}
+
+
+
 
 /*  ATTRIBUTS DE LA TABLE LIENS    */
 table#liens
@@ -118,6 +116,7 @@ table#liens
     padding: 0px;
     width: 100%;
     border-collapse: collapse;
+		text-align: center;
     
 }
 /*  ATTRIBUTS DE LA TABLE INFO    */
@@ -149,11 +148,23 @@ table#infom33effacer
 /*  ATTRIBUTS DE LA TABLE INFOM33-TECH    */
 table#liste-articles
 {
-    background-color: white;
+    background-color: rgb(255,255,226);
     border: 1px solid black;
     padding: 0px;
-    width: 100%;
-    border-collapse: collapse;
+    width: 95%;
+		border-collapse: collapse;
+				
+}
+/*  ATTRIBUTS DE LA TABLE ARTICLES TECHNIQUES    */
+table#liste-articles-tech
+{
+    background-color: rgb(255,255,226);
+    border: 1px solid black;
+    padding: 0px;
+    width: 70%;
+		border-collapse: collapse;
+		border-radius:20px;
+				
 }
 /*  ATTRIBUTS DE LA TABLE PHOTOS   */
 table#photos
