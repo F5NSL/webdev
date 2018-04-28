@@ -10,6 +10,7 @@
 		width: auto;
 		margin: 0;
 		padding: 0;
+		
 	}
 	
 	/* fixer une largeur maximale de 100% aux éléments potentiellement problématiques */
@@ -87,9 +88,13 @@
    -ms-text-size-adjust: 100%;
   }
 }
-
-
-
+/*  FIN SITE MOBILE */
+/*  COULEUR ARRIERE PLAN */
+body
+{
+	background-color: rgb(240,255,255);
+	
+}
 
 
 /*  SELECTION UNIVERSELLE */
@@ -117,6 +122,7 @@ table#liens
     width: 100%;
     border-collapse: collapse;
 		text-align: center;
+		font-size: x-large;
     
 }
 /*  ATTRIBUTS DE LA TABLE INFO    */
