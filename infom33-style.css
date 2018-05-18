@@ -137,6 +137,18 @@ table#info
     text-align: center;
     border-radius: 10px;
 }
+/*  ATTRIBUTS DE LA TABLE INFO-FOOTER    */
+table#info-footer
+{
+    background-color: white;
+    font-style: italic;
+    font-size: medium;
+    border: 2px solid black;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+}
 /*  MOTS EN GRAS DANS LE TEXTE    */
 mark
 {
