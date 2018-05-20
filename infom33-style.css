@@ -64,7 +64,13 @@
 		float: none;
 		width: auto;
 	}
-	
+	/*  ATTRIBUT DU TITRE VERSION MOBILE   */
+.titre
+{
+    font-size: large;
+    font-weight: bold;
+    color: blue;
+}
 	/* masquer les éléments superflus */
 
 	.hide_mobile {
